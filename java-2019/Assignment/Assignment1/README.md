@@ -22,6 +22,7 @@ Reflection enables us to:
 Object of unknown type-->reflection-->Modify Structure and behaviour
 
 Example :Get class name	from object 
+```
 import java.lang.reflect.*; 
 public class ReflectionHelloWorld 
 { 
@@ -37,4 +38,5 @@ class Hello
  		System.out.println("abc"); 
 		} 
 }
+```
 Output : Reflection.Hello
